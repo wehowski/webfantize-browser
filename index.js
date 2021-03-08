@@ -2,8 +2,12 @@
 import './style.css';
 
 
-const watchFor = require("insertion-query");
 
+var watchFor = require("insertion-query");
+var ready = require('ready');
+var onIdle = require('on-idle')
+var domReady = require('./3p/domready')
+  
 // Write Javascript code!
 //const appDiv = document.getElementById('app');
 //appDiv.innerHTML = `<h1>JS Starter</h1>`;
